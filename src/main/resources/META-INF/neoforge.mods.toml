@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="LGPL-3.0-or-later"
+issueTrackerURL="https://github.com/traelmyx/culinary-construct-reborn/issues"
+
+[[mods]]
+modId="culinaryconstruct"
+version="${version}"
+displayName="Culinary Construct Reborn"
+displayURL="https://github.com/traelmyx/culinary-construct-reborn"
+logoFile="culinaryconstruct_icon.png"
+authors="C4 (original), traelmyx (port)"
+credits="Based on Culinary Construct by C4 / Illusive Soulworks"
+description='''
+Build your own sandwiches and food bowls from any food. Based on Culinary Construct by C4.
+'''
+
+[[dependencies.culinaryconstruct]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.culinaryconstruct]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
